@@ -1,0 +1,24 @@
+{
+  "language": "de",
+  "gitbook": ">=3.0.0",
+  "plugins": ["image-captions", "local-video", "fancybox", "downloadpdf"],
+  "pluginsConfig": {
+       "theme-default": {
+           "showLevel": false
+       },
+       "image-captions": {
+        "caption": "Abbildung _PAGE_IMAGE_NUMBER_: _CAPTION_"
+      },     
+      "downloadpdf": {       
+          "base": "/book_pdf/book.pdf?",       
+          "label": "PDF laden",       
+          "multilingual": false     
+          
+      }
+     },
+   "styles": {
+     "website": "./styles/website.css",
+     "pdf": "./styles/pdf.css"
+   },
+   "title": "BiotechAll<p>Biotechnologie im Alltag</p>"
+}

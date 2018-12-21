@@ -1,0 +1,5 @@
+node_modules/
+_book/
+*.pdf
+2016-07-01-agenda.md
+!book.pdf

@@ -1,0 +1,132 @@
+.markdown-section img {
+  display: block;
+  margin: 0 auto;
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3
+{
+  line-height: 1.2em;
+}
+
+video {
+  margin: 0 auto;
+}
+
+.book-summary {
+  background: #354151;
+  padding: 20px 0 0 20px;
+}
+
+.book-summary h2 {
+  color: #fff;
+  margin-left: 15px;
+  margin-bottom: 18px;
+}
+
+.book-summary h2 p {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 6px;
+}
+
+.book-summary ul.summary li a, .book-summary ul.summary li span {
+    color: #fff;
+    padding: 2px 15px;
+}
+
+.book-summary ul.summary li a:hover {
+    color: #d1af66;
+}
+
+.book-summary ul.summary li.active>a {
+  color: #d1af66;
+}
+
+.book-summary ul.summary li.header {
+  color: #d1af66;
+}
+
+.summary-logo {
+  margin-bottom: 5px;
+}
+
+.summary-logo.hoou img {
+  display: block;
+  margin: 15px auto 0 18px;
+}
+
+.summary-logo.biotechall img {
+  display: block;
+  margin: 15px auto 15px 18px;
+  width: 200px;
+}
+
+.summary-logo.itb img {
+  display: block;
+  margin: 15px auto 0 18px;
+}
+
+.img-pull-left {
+  float:left;
+  width: 300px;
+  margin: 0 20px 20px 0;
+}
+
+.img-pull-left figure {
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.clearer {
+  clear: both;
+}
+
+div.license {
+  margin-top: 20px;
+  margin-left: 18px;
+  width: 85%;
+}
+
+div.license, div.license > a {
+  color: #fff;
+  font-size: 12px;
+}
+
+@media (max-width: 1240px) {
+  .book .book-body .navigation.navigation-unique {
+    background: #25456d;
+  }
+}
+
+/* Sorgt dafür, dass Videos fluide skaliert werden.
+   Nachteil: Es braucht ein div, das als Elterncontainer
+   dient. Quelle: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+*/
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Abstand des eingebetteten Discourse-Threads zum Text vorher */
+
+#discourse-comments {
+  margin-top: 40px;
+}
+
+.video-js {
+  width: 720px !important;
+  height: 405px !important;
+}
